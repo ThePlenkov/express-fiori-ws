@@ -3,8 +3,7 @@ const express_ui5 = require("express-sapui5");
 
 let oConfig = {
   neoApp: require("./neo-app.json"),
-  destinations: require("./neo-dest.json"),
-  static: ["resources"]
+  destinations: require("./neo-dest.json")
 };
 
 // initialize environment variables
@@ -19,5 +18,10 @@ let app = express();
 
 //sapui5 middleware
 app.use(express_ui5(oConfig));
+
+//static paths
+["appconfig", "resources"].forEach(function(sPath) {
+  app.use("/" + sPath, express.static(sPath));
+});
 
 app.listen(process.env.PORT || 3000);
