@@ -1,0 +1,13 @@
+{
+  "welcomeFile": "/test-resources/sap/ushell/shells/sandbox/fioriSandbox.html",
+  "routes": [
+    {
+      "path": "/z_northwind",
+      "target": {
+        "type": "destination",
+        "name": "northwind",
+        "entryPath": "/"
+      }
+    }
+  ]
+}
