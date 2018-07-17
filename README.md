@@ -11,9 +11,8 @@ https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 As alternative way I recommend you to use Gitkraken (https://www.gitkraken.com/), the best git client which clones properly the whole project with submodules
 
-Finally you just need to run 
-```node server```
-and then navigate to http://localhost:3000/
+Finally you just need to run ```npm install``` and then ```node server```.
+After this you can navigate to http://localhost:3000/
 
 ## Use behind proxy
 The following example supports a corporate proxy settings. You can define HTTP_PROXY variable in the .env file with your proxy address.
