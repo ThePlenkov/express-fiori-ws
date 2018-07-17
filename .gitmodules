@@ -1,3 +1,6 @@
 [submodule "resources/NorthwindUI5"]
 	path = resources/NorthwindUI5
 	url = https://github.com/bifunctor/NorthwindUI5.git
+[submodule "resources/openui5-sample-app"]
+	path = resources/openui5-sample-app
+	url = https://github.com/SAP/openui5-sample-app.git
