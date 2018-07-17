@@ -1,5 +1,4 @@
 {
-
   "services": {
     "LaunchPage": {
       "adapter": {
@@ -20,6 +19,16 @@
                     "chipId": "catalogTile_00",
                     "title": "Northwind UI5 example",
                     "targetURL": "#NorthwindUI5-start"
+                  }
+                },
+                {
+                  "id": "openui5-sample-app",
+                  "size": "1x1",
+                  "tileType": "sap.ushell.ui.tile.StaticTile",
+                  "properties": {
+                    "chipId": "catalogTile_00",
+                    "title": "OpenUI5 sample app",
+                    "targetURL": "#openui5-sampleApp"
                   }
                 }
               ]
@@ -42,8 +51,22 @@
               "action": "start",
               "resolutionResult": {
                 "applicationType": "SAPUI5",
-                "additionalInformation": "SAPUI5.Component=ch.example.northwind",
-                "url":"/resources/NorthwindUI5/webapp"
+                "additionalInformation":
+                  "SAPUI5.Component=ch.example.northwind",
+                "url": "/resources/NorthwindUI5/webapp"
+              },
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            },
+            "openui5-sample-app": {
+              "semanticObject": "openui5",
+              "action": "sampleApp",
+              "resolutionResult": {
+                "applicationType": "SAPUI5",
+                "additionalInformation": "SAPUI5.Component=sap.ui.demo.todo",
+                "url": "/resources/openui5-sample-app/webapp"
               },
               "signature": {
                 "parameters": {},
