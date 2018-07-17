@@ -1,0 +1,3 @@
+[submodule "resources/NorthwindUI5"]
+	path = resources/NorthwindUI5
+	url = https://github.com/bifunctor/NorthwindUI5.git
