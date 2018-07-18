@@ -1,5 +1,6 @@
 # SAP Fiori server with demo apps
-This module - is a web server for local local development of UI5 fiori components.
+This module - is a sample implementation of web server for local local development of UI5 fiori components.
+You can find more details about express middleware here: https://github.com/ThePlenkov/express-sapui5
 
 As illustration how it works I didn't create any apps here but just reused existing demo apps as git submodules.
 
