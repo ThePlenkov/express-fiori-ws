@@ -19,7 +19,7 @@
   "dependencies": {
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "express-sapui5": "^1.0.18",
+    "express-sapui5": "^1.0.19",
     "https-proxy-agent": "^2.2.1"
   }
 }
